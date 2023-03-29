@@ -1,0 +1,410 @@
+main{
+    margin-top:4rem;
+    padding:1rem;
+    min-height: calc(100vh - 8rem);
+    z-index: 1;
+}
+
+
+/* 
+
+body {
+    font-family: Arial, sans-serif;
+    
+
+    
+  }
+  
+  .register-section {
+    background-color: #353638;
+    
+  }
+  .register-card {
+    border-radius: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 100px auto;
+
+  }
+  
+  .register-image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-image img {
+    border-radius: 1rem 0 0 1rem;
+  }
+  
+  .logo-icon {
+    color: #ff6219;
+  }
+  
+  .register-heading {
+    letter-spacing: 1px;
+  }
+  
+  .register-text {
+    color: #393f81;
+  }
+  
+  .register-text a {
+    color: #393f81;
+    text-decoration: none;
+  }
+  
+  .register-text a:hover {
+    text-decoration: underline;
+  }
+*/  
+/* button {
+    font-weight: 500;
+   font-size: 0.875rem;
+   padding: 0.5px 168px;
+   height :40px;
+   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+ 
+ button:after{
+ 
+   content: " ";
+  width: 0%;
+  height: 100%;
+  background: #FFD401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+  
+ 
+ 
+ }
+ 
+ 
+  button:hover::after{
+ 
+   right: auto;
+   left: 0;
+   width: 100%;
+ }
+ 
+  button span{
+ text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+ }
+ button span:hover{
+ color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+ }
+ 
+ 
+ 
+ 
+ @keyframes scaleUp {
+   0% {
+    transform: scale(1);
+   }
+  
+   50% {
+    transform: scale(0.95);
+   }
+  
+   100% {
+    transform: scale(1);
+   }
+  } 
+  
+  /* .container-mt5 {
+    position: relative;
+    z-index: 1;
+  }
+ */
+
+   
+
+   /* style.css */
+   /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.validation-message {
+    color: #f44336;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #4caf50;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3f9a40;
+}
+
+.btn:disabled {
+    background-color: #a9a9a9;
+    cursor: not-allowed;
+}
+
+
+.row .form-check-input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .row .form-check-input[type="radio"] + .form-check-label:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  
+  .row .form-check-input[type="radio"]:checked + .form-check-label:before {
+    background-color: #000;
+  }
+  
+  .row .form-check-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+  }
+  
+  .row .form-check-label:hover:before {
+    border-color: #000;
+  }
+
+  .center-text {
+    text-align: center;
+
+
+  }
+  
+  .text-color {
+    color: #183153;
+    font-size: 24px;
+  font-weight: bold;
+  } */ 
+
+  /* mat-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input.mat-input-element {
+    font-size: 16px;
+  }
+  
+  mat-radio-button {
+    margin-right: 20px;
+  }
+  
+  .login-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button.mat-raised-button {
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  
+  button.mat-raised-button:hover {
+    background-color: #1976d2;
+  }
+
+
+  
+
+
+  
+   */
+
+
+   .login-container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-card {
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .login-button-container {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .login-button {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  .login-button:hover {
+    background-color: #ffffff;
+    color: #2c2c2c;
+  }
+  
+  .login-button:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .login-button:hover:after {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 480px) {
+    .login-card {
+      width: 100%;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+  
